@@ -4,15 +4,15 @@ This repository showcases the generation of realistic stories using the GPT-2 mo
 
 ## Overview
 
-This project focuses on utilizing GPT-2, a powerful language generation model from the Hugging Face Transformers library, to automatically generate realistic stories. The aim is to create compelling narratives that exhibit realism, coherence, and natural language fluency.
+This project utilizes the capabilities of GPT-2 and GPT-2 Medium, powerful language generation models from the Hugging Face Transformers library, to autonomously generate realistic stories. The primary goal is to craft captivating narratives that showcase realism, coherence, and natural language fluency.
 
 ## Dataset
 
-The dataset used for this project is sourced from the [Atlas Storyteller Dataset](https://huggingface.co/datasets/AtlasUnified/atlas-storyteller?row=42) available on the Hugging Face Datasets Hub. This dataset contains a collection of stories suitable for training language models like GPT-2.
+The dataset used for this project is sourced from the [Atlas Storyteller Dataset](https://huggingface.co/datasets/AtlasUnified/atlas-storyteller?row=42) available on the Hugging Face Datasets Hub. This dataset contains a collection of stories suitable for training language models like GPT-2 and GPT-2 Medium.
 
-## GPT-2 Model
+## GPT-2 and GPT-2 Medium Model
 
-The GPT-2 model from the Hugging Face Transformers library ([documentation here](https://huggingface.co/docs/transformers/model_doc/gpt2)) serves as the core for generating stories. This model has been fine-tuned on the provided dataset to facilitate the creation of realistic and engaging narratives.
+The story generation process relies on both the GPT-2 model and the GPT-2 Medium model, available in the Hugging Face Transformers library. You can find the documentation for GPT-2 [here](https://huggingface.co/docs/transformers/model_doc/gpt2) and access the GPT-2 Medium model directly [here](https://huggingface.co/gpt2-medium). These models serve as the core for generating stories in this project. They have been fine-tuned on the provided dataset to facilitate the creation of realistic and engaging narratives.
 
 ## Evaluation Metrics
 
