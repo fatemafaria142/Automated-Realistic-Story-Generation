@@ -16,7 +16,7 @@
 
   <h2>Models Used</h2>
 
-  <p>The story generation process relies on both the GPT-2 model and the GPT-2 Medium model, available in the Hugging Face Transformers library. You can find the documentation for GPT-2 <a href="https://huggingface.co/docs/transformers/model_doc/gpt2">here</a> and access the GPT-2 Medium model directly <a href="https://huggingface.co/gpt2-medium">here</a>. Mistral-7B-v0.1: <a href="https://huggingface.co/mistralai/Mistral-7B-v0.1">Mistral-7B-v0.1</a> and TinyLlama-1.1B-Chat-v1.0: <a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0">TinyLlama-1.1B-Chat-v1.0</a>. These models serve as the core for generating stories in this project. They have been fine-tuned on the provided dataset to facilitate the creation of realistic and engaging narratives.</p>
+  <p>The story generation process relies on both the GPT-2 model and the GPT-2 Medium model, available in the Hugging Face Transformers library. You can find the documentation for GPT-2 <a href="https://huggingface.co/docs/transformers/model_doc/gpt2">here</a> and access the GPT-2 Medium model directly <a href="https://huggingface.co/gpt2-medium">here</a>. <a href="https://huggingface.co/mistralai/Mistral-7B-v0.1">Mistral-7B-v0.1</a> and <a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0">TinyLlama-1.1B-Chat-v1.0</a>. These models serve as the core for generating stories in this project. They have been fine-tuned on the provided dataset to facilitate the creation of realistic and engaging narratives.</p>
 
   <h2>Evaluation Metrics</h2>
 
