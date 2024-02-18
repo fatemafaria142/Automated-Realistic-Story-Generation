@@ -15,19 +15,26 @@
   <p>The dataset used for this project is sourced from the <a href="https://huggingface.co/datasets/AtlasUnified/atlas-storyteller?row=42">Atlas Storyteller Dataset</a> available on the Hugging Face Datasets Hub. This dataset contains a collection of stories suitable for training Large Language Models.</p>
 
   <h2>Models Used</h2>
+<ul>
+  <li><a href="https://huggingface.co/docs/transformers/model_doc/gpt2">GPT-2</a></li>
+  <li><a href="https://huggingface.co/gpt2-medium">GPT-2 Medium</a></li>
+  <li><a href="https://huggingface.co/meta-llama/Llama-2-7b-chat-hf">Llama-2-7b-chat-hf</a></li>
+  <li><a href="https://huggingface.co/mistralai/Mistral-7B-v0.1">Mistral-7B-v0.1</a></li>
+  <li><a href="https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha">Starling-LM-7B-alpha</a></li>
+  <li><a href="https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2">Mistral-7B-Instruct-v0.2</a></li>
+  <li><a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0">TinyLlama-1.1B-Chat-v1.0</a></li>
+  <li><a href="https://huggingface.co/openchat/openchat-3.5-1210">openchat-3.5-1210</a></li>
+</ul>
+These models serve as the core for generating stories in this project. They have been fine-tuned on the provided dataset to facilitate the creation of realistic and engaging narratives.
 
-  <p>The story generation process relies on both the GPT-2 model and the GPT-2 Medium model, available in the Hugging Face Transformers library. You can find the documentation for GPT-2 <a href="https://huggingface.co/docs/transformers/model_doc/gpt2">here</a> and access the GPT-2 Medium model directly <a href="https://huggingface.co/gpt2-medium">here</a>. <a href="https://huggingface.co/mistralai/Mistral-7B-v0.1">Mistral-7B-v0.1</a>, <a href="https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha">Starling-LM-7B-alpha</a>, 
-  <a href="https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2">Mistral-7B-Instruct-v0.2</a>, <a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0">TinyLlama-1.1B-Chat-v1.0</a>, and <a href="https://huggingface.co/openchat/openchat-3.5-1210">openchat-3.5-1210</a>. These models serve as the core for generating stories in this project. They have been fine-tuned on the provided dataset to facilitate the creation of realistic and engaging narratives.</p>
 
   <h2>Evaluation Metrics</h2>
 
   <p>The following evaluation metrics have been calculated to assess the quality of the generated stories:</p>
   <ul>
-    <li>Character Error Rate (CER)</li>
-    <li>Word Error Rate (WER)</li>
-    <li>Exact Match (EM)</li>
     <li>BLEU Score</li>
     <li>METEOR Score</li>
+     <li>BERT Score</li>
   </ul>
 
   <p>These metrics help quantify the accuracy, fluency, and similarity of the generated stories compared to the reference or ground truth stories.</p>
